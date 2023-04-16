@@ -43,5 +43,3 @@ function onFeedbackFormSubmit(event) {
 
   localStorage.removeItem('feedback-form-state');
 }
-request
-Property of the object
