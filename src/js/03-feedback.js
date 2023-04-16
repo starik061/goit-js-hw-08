@@ -38,8 +38,10 @@ function onFeedbackFormSubmit(event) {
   feedbackFormElement.reset();
 
   console.log(
-    `email: ${feedbackDataObj.email} \nmessage: ${feedbackDataObj.message})`
+    `email: ${feedbackDataObj?.email} \nmessage: ${feedbackDataObj?.message})`
   );
 
   localStorage.removeItem('feedback-form-state');
 }
+request
+Property of the object
